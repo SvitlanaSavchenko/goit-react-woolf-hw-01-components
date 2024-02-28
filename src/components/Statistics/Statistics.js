@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './Statistics.module.css';
 
-import { getRandomColor } from 'components/Statistics/getRandomHexColor';
+import { getRandomColor } from 'components/GetRandomColor/getRandomHexColor';
 
 const Statistics = ({ title, stats }) => (
   <section className={styles.statistics}>
